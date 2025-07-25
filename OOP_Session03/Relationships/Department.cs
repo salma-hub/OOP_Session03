@@ -1,6 +1,7 @@
 ﻿
     public class Department
     {
+    private String name;
     }
 public class University
 {

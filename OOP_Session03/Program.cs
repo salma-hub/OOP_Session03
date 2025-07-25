@@ -1,4 +1,5 @@
-﻿#region Video1
+﻿
+#region Video1
 // PhoneBook  PhoneBook = new  PhoneBook(3);
 // PhoneBook.AddPerson("bob", 01234555, 0);
 ////using indexer property
@@ -16,14 +17,14 @@
 //Console.WriteLine(c.Product());
 #endregion
 //Assignment
-
 Employee[] EmpArr = new Employee[3];
-        EmpArr[0] = new Employee(1, "Ali", Gender.M, SecurityLevel.DBA, 20000, new HiringDate(1, 1, 2000));
-        EmpArr[1] = new Employee(2, "Sara", Gender.F, SecurityLevel.guest, 6000, new HiringDate(15, 3, 2001));
-        EmpArr[2] = new Employee(3, "Omar", Gender.M, SecurityLevel.securityOfficer, 25000, new HiringDate(5, 7, 20021));
-        foreach (Employee emp in EmpArr)
-        {
-            Console.WriteLine(emp);
-        }
-   
+      EmpArr[0] = new Employee(1, "joe", Gender.M, SecurityLevel.DBA, 20000, new HireDate(-1, 1, 2000));
+       EmpArr[1] = new Employee(2, "ahmed", Gender.M, SecurityLevel.guest, 6000, new HireDate(15, 3, 2001));
+     EmpArr[2] = new Employee(3, "Omar", Gender.M, SecurityLevel.securityOfficer, 25000, new HireDate(5, 7, 20021));
+foreach (Employee emp in EmpArr)
+{
+    Console.WriteLine(emp);
+}
+
+Console.WriteLine("sssss");
 
